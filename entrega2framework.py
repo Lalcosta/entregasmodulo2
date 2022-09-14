@@ -10,7 +10,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import seaborn as sns
 from sklearn.tree import DecisionTreeClassifier
-
+from mlxtend.evaluate import bias_variance_decomp
 
 dataFrame = pd.read_csv("Fish.csv")
 
